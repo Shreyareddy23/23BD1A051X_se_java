@@ -189,4 +189,7 @@ make changes
 docker tag myimage ananyabijja15/myimage
 docker push ananyabijja15/myimage
 
+FROM ubuntu:latest
+
+RUN apt update && apt install -y nginx
 
